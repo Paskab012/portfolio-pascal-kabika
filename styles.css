@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.first-card {
+  background-color: #e5e5e5;
+  height: 100vh;
+  margin: 0 auto;
+  width: 360px;
+}
+
+.first-card-section {
+  margin-bottom: 90px;
+}
+
+.all-components {
+  display: grid;
+  grid-row: 2;
+  margin: 16px;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 60px;
+  border-radius: 16px;
+}
+
+.first-image {
+  width: 300px;
+  height: 260px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.tonic-content {
+  margin-top: -10px;
+  width: 300px;
+}
+
+.tonic-content h2 {
+  font-size: 34px;
+}
+
+ul li {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: rgb(95, 95, 173);
+}
+
+.tonic-list li {
+  font-size: 13px;
+  color: #7a869a;
+  line-height: 16px;
+  margin-left: 25px;
+  margin-top: -2px;
+}
+
+.tonic-content ul li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+}
+
+.tonic-flex ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.tonic-content-canopy {
+  display: flex;
+  align-items: baseline;
+  width: 300px;
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #344563;
+  font-size: 15px;
+  line-height: 24px;
+  line-height: 26px;
+}
+
+.tonic-content-canopy p {
+  color: #344563;
+  position: static;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: -20px;
+}
+
+.btn-tonic {
+  padding: 10px;
+  width: 140px;
+  font-size: 18px;
+  background-color: white;
+  border: 1px #396df2 solid;
+  border-radius: 8px;
+  color: #396df2;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-tonic:hover {
+  background-color: #ebebff;
+  color: black;
+}
+
+.tonic-courses ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.tonic-courses ul li a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.second-card-section {
+  margin-bottom: 90px;
+}
+
+.third-card-section {
+  margin-bottom: 90px;
+}
+
+.fourth-card-section {
+  margin-bottom: 90px;
+}
+
+.about-myself-card {
+  background-color: #fff;
+  padding-bottom: 40px;
+  border-top-right-radius: 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.about-myself-card h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-myself-card h3 {
+  color: rgb(148, 100, 182);
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.about-myself-card button {
+  width: 200px;
+}
+
+.about-myself-card .languages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-myself-card .abt-myself-courses img {
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+i {
+  color: rgb(42, 37, 110);
+  cursor: pointer;
+}
+
+.contact-card-section {
+  background-color: #6070ff;
+  background-image: url(./asset//contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  border-top-left-radius: 80px;
+  color: white;
+  position: absolute;
+}
+
+.contact-card-section .all-components {
+  background-color: transparent;
+}
+
+.contact-card-section p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-card-section .tonic-courses {
+  display: grid;
+  margin-top: 10px;
+}
+
+.contact-card-section .tonic-courses input {
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.contact-card-section .tonic-courses textarea {
+  color: rgb(202, 199, 199);
+  border-radius: 8px;
+}
