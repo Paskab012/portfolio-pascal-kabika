@@ -32,9 +32,18 @@ body {
   border-radius: 16px;
 }
 
+.about-myself-card {
+  background-color: #fff;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+}
+
 .all-components .about-myself-card {
   border-top-right-radius: 120px;
 }
+
 .first-image {
   width: 300px;
   height: 260px;
@@ -147,14 +156,6 @@ h1 {
 
 .fourth-card-section {
   margin-bottom: 90px;
-}
-
-.about-myself-card {
-  background-color: #fff;
-  padding-bottom: 40px;
-  box-sizing: border-box;
-  margin: 0;
-  width: 100%;
 }
 
 .about-myself-card h1 {
