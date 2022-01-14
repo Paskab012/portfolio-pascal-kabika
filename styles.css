@@ -15,7 +15,7 @@ body {
   background-color: #e5e5e5;
   height: 100vh;
   margin: 0 auto;
-  width: 360px;
+  width: 100%;
 }
 
 .first-card-section {
@@ -32,6 +32,9 @@ body {
   border-radius: 16px;
 }
 
+.all-components .about-myself-card {
+  border-top-right-radius: 120px;
+}
 .first-image {
   width: 300px;
   height: 260px;
@@ -41,11 +44,11 @@ body {
 
 .tonic-content {
   margin-top: -10px;
-  width: 300px;
 }
 
 .tonic-content h2 {
   font-size: 34px;
+  margin-bottom: 10px;
 }
 
 ul li {
@@ -149,9 +152,9 @@ h1 {
 .about-myself-card {
   background-color: #fff;
   padding-bottom: 40px;
-  border-top-right-radius: 10px;
   box-sizing: border-box;
   margin: 0;
+  width: 100%;
 }
 
 .about-myself-card h1 {
@@ -191,10 +194,13 @@ i {
   background-color: #6070ff;
   background-image: url(./asset//contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
+  background-position-x: -20px;
+  background-position-y: 10px;
   padding-top: 80px;
   border-top-left-radius: 80px;
   color: white;
   position: absolute;
+  width: 100%;
 }
 
 .contact-card-section .all-components {
