@@ -7,15 +7,112 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-color: #e5e5e5;
+.part-one-container {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-position: 20px 10px;
+  background-image: url(./header-shapes\ mobile.png);
+  background-size: cover;
+  background-position-y: 40px;
+  background-position-x: 0;
+  background-repeat: no-repeat;
+  width: 375px;
+  position: static;
+  margin-bottom: 60px;
+}
+
+.header-content {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  position: inherit;
+  margin: 0 0;
+  padding: 0;
+}
+
+.sub-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 2px;
+  align-content: center;
+  text-align: center;
+}
+
+.bars-icon {
+  margin: 20px;
+  align-content: center;
+  color: rgb(32, 28, 87);
+}
+
+ul {
+  display: flex;
+}
+
+.image-intro ul {
+  display: flex;
+  list-style: none;
+}
+
+i {
+  color: rgb(42, 37, 110);
+  cursor: pointer;
+}
+
+.image-intro i {
+  margin-right: 10px;
+  font-size: 25px;
+  color: rgb(38, 38, 73);
+}
+
+.bars-icon .bars i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.main-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+p {
+  margin-bottom: 10px;
+  color: rgb(79, 88, 107);
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: rgb(38, 38, 73);
+}
+
+.icons-title h3 {
+  font-weight: 400;
+  color: #7f8cff;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.first-image img {
+  width: 320px;
+  height: 240px;
+  margin-left: -10px;
 }
 
 .first-card {
+  margin-left: -12px;
   background-color: #e5e5e5;
-  height: 100vh;
-  margin: 0 auto;
-  width: 100%;
+  padding-top: 60px;
 }
 
 .first-card-section {
@@ -24,12 +121,13 @@ body {
 
 .all-components {
   display: grid;
-  grid-row: 2;
   margin: 16px;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   padding-bottom: 60px;
   border-radius: 16px;
+  margin-left: 25px;
+  border: 1px solid #dfe1e6;
 }
 
 .about-myself-card {
@@ -58,6 +156,7 @@ body {
 .tonic-content h2 {
   font-size: 34px;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 ul li {
@@ -78,10 +177,6 @@ ul li {
   list-style: none;
 }
 
-ul {
-  display: flex;
-}
-
 .tonic-flex ul {
   display: flex;
   flex-direction: column;
@@ -94,25 +189,12 @@ ul {
   margin-top: 10px;
 }
 
-p {
-  margin-bottom: 15px;
-  color: #344563;
-  font-size: 15px;
-  line-height: 24px;
-  line-height: 26px;
-}
-
 .tonic-content-canopy p {
   color: #344563;
   position: static;
   font-weight: 500;
   font-size: 15px;
   line-height: 16px;
-}
-
-h1 {
-  font-size: 36px;
-  margin-top: -20px;
 }
 
 .btn-tonic {
@@ -164,7 +246,7 @@ h1 {
 }
 
 .about-myself-card h3 {
-  color: rgb(148, 100, 182);
+  color: #7f8cff;
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -186,11 +268,6 @@ h1 {
   object-fit: cover;
 }
 
-i {
-  color: rgb(42, 37, 110);
-  cursor: pointer;
-}
-
 .contact-card-section {
   background-color: #6070ff;
   background-image: url(./asset//contact\ form\ shapes-mobile@2x.png);
@@ -200,8 +277,8 @@ i {
   padding-top: 80px;
   border-top-left-radius: 80px;
   color: white;
-  position: absolute;
   width: 100%;
+  position: static;
 }
 
 .contact-card-section .all-components {
