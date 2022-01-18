@@ -111,8 +111,8 @@ h1 {
 
 .first-card {
   margin-left: -12px;
-  background-color: #e5e5e5;
   padding-top: 60px;
+  background-color: white;
 }
 
 .first-card-section {
@@ -122,12 +122,11 @@ h1 {
 .all-components {
   display: grid;
   margin: 16px;
-  background-color: white;
+  background-color: #f7f7f7;
   padding: 20px;
   padding-bottom: 60px;
   border-radius: 16px;
   margin-left: 25px;
-  border: 1px solid #dfe1e6;
 }
 
 .about-myself-card {
@@ -154,9 +153,10 @@ h1 {
 }
 
 .tonic-content h2 {
-  font-size: 34px;
+  font-size: 40px;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 18px;
+  margin-left: 8%;
 }
 
 ul li {
@@ -272,10 +272,11 @@ ul li {
   background-color: #6070ff;
   background-image: url(./asset//contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
-  background-position-x: -20px;
-  background-position-y: 10px;
+  background-position-x: 140px;
+  background-position-y: 40px;
+  background-size: contain;
   padding-top: 80px;
-  border-top-left-radius: 80px;
+  border-top-left-radius: 120px;
   color: white;
   width: 100%;
   position: static;
@@ -283,11 +284,18 @@ ul li {
 
 .contact-card-section .all-components {
   background-color: transparent;
+  width: 354px;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 .contact-card-section p {
-  color: white;
-  margin-bottom: 20px;
+  color: #ebebff;
+  margin-bottom: 22px;
+  font-size: 20px;
+  align-items: center;
+  align-content: center;
+  line-height: 28px;
 }
 
 .contact-card-section .tonic-courses {
