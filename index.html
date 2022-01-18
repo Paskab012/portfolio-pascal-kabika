@@ -269,7 +269,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-card-section">
+      <form class="contact-card-section">
         <div class="all-components">
           <div class="tonic-content">
             <h2>Contact me</h2>
@@ -279,9 +279,15 @@
               love to help with it.
             </p>
             <div class="tonic-courses">
-              <input type="text" placeholder="Mack donald" />
-              <input type="text" placeholder="mackdo@gmail.com" />
-              <textarea name="contact" id="msg" cols="30" rows="10">
+              <input type="text" placeholder="Mack donald" required />
+              <input type="text" placeholder="mackdo@gmail.com" required />
+              <textarea
+                name="contact"
+                id="msg"
+                cols="30"
+                rows="10"
+                maxlength="500"
+              >
                   write your message here</textarea
               >
             </div>
@@ -290,7 +296,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </form>
     </main>
   </body>
 </html>
