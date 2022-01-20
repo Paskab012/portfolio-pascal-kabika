@@ -1,6 +1,10 @@
-# porfolio-part2
+# Responsive portfolio design
 
 # Using flexbox and grid
+
+> Simple design of mobile-porfolio-skeleton
+> Desktop version
+> ![screenshot](./desktop.png)!
 
 > Simple design of mobile-porfolio-skeleton
 > Mobile phone view on Motorola G4

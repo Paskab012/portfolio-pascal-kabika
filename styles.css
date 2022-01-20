@@ -798,32 +798,44 @@ body {
 
   .contact-card-section {
     background-color: #6070ff;
-    background-image: url(./asset//contact\ form\ shapes-mobile@2x.png);
+    background-image: url(./asset/body.svg);
     background-repeat: no-repeat;
-    background-position-x: -20px;
-    background-position-y: 10px;
+    background-position-x: 200px;
+    background-position-y: 1px;
     padding-top: 80px;
     border-top-left-radius: 80px;
     color: white;
     width: 100%;
     position: static;
+    background-size: cover;
+  }
+
+  .tonic-content-contact h2 {
+    font-size: 38px;
+    margin-left: 10%;
   }
 
   .contact-card-section .all-components {
     background-color: transparent;
+    border: none;
   }
 
+  .line {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+  }
   .contact-card-section p {
     color: white;
     margin-bottom: 20px;
   }
 
-  .contact-card-section .tonic-courses {
+  .contact-card-section .tonic-courses-about {
     display: grid;
     margin-top: 10px;
   }
 
-  .contact-card-section .tonic-courses input {
+  .contact-card-section .tonic-courses-about input {
     padding: 10px;
     border-radius: 8px;
     outline: none;
@@ -831,7 +843,7 @@ body {
     border: none;
   }
 
-  .contact-card-section .tonic-courses textarea {
+  .contact-card-section .tonic-courses-about textarea {
     color: rgb(202, 199, 199);
     border-radius: 8px;
   }
