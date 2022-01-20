@@ -10,29 +10,29 @@
 body {
   margin: 0 auto;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #e5e5e5;
 }
 
 .part-one-container {
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-position: 20px 10px;
+  margin-bottom: 60px;
   background-image: url(./header-shapes\ mobile.png);
   background-size: cover;
-  background-position-y: 40px;
-  background-position-x: 0;
+  background-position-y: 20px;
+  background-position-x: 10px;
   background-repeat: no-repeat;
-  position: static;
-  margin-bottom: 60px;
+  z-index: 1;
+  border-bottom-left-radius: 80px;
+  background-color: white;
 }
 
 .header-content {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   align-items: center;
   position: inherit;
-  background-color: #fff;
+  margin: 0 auto;
 }
 
 .sub-header-container {
@@ -44,7 +44,6 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 60px;
   align-items: center;
 }
 
@@ -55,11 +54,12 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   list-style: none;
-  color: black;
+  color: #344563;
   justify-content: space-between;
-  margin-left: 20px;
-  font-size: 18px;
+  margin-right: 25px;
+  font-size: 15px;
   font-weight: 500;
+  line-height: 20px;
 }
 
 .logo img {
@@ -106,10 +106,15 @@ i {
 }
 
 .main-container {
-  flex-direction: column;
   justify-content: flex-start;
   padding: 20px;
   margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 200px;
+  height: 716px;
 }
 
 p {
@@ -117,10 +122,18 @@ p {
   color: rgb(79, 88, 107);
 }
 
+.flexbox p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 h1 {
-  font-size: 40px;
+  font-size: 48px;
   margin-bottom: 10px;
   color: rgb(38, 38, 73);
+  line-height: 58px;
 }
 
 .icons-title h3 {
@@ -139,7 +152,6 @@ h1 {
 .first-card {
   margin-left: -12px;
   padding-top: 60px;
-  background-color: white;
 }
 
 .first-card-section {
@@ -147,13 +159,44 @@ h1 {
 }
 
 .all-components {
-  display: grid;
+  display: flex;
   margin: 16px;
   background-color: #f7f7f7;
   padding: 20px;
   padding-bottom: 60px;
   border-radius: 16px;
   margin-left: 25px;
+  width: 1156px;
+  margin: 0 auto;
+  height: 496px;
+}
+
+.all-components-one {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 16px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  padding-bottom: 60px;
+  border-radius: 16px;
+  margin-left: 25px;
+  width: 1156px;
+  margin: 0 auto;
+  height: 496px;
+}
+
+.all-components-navigation {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 16px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  padding-bottom: 60px;
+  border-radius: 16px;
+  margin-left: 25px;
+  width: 1156px;
+  margin: 0 auto;
+  height: 496px;
 }
 
 .about-myself-card {
@@ -168,19 +211,20 @@ h1 {
   border-top-right-radius: 120px;
 }
 
-.first-image {
-  width: 300px;
-  height: 260px;
-  margin: 0 auto;
-  margin-top: 10px;
+.first-image img {
+  width: 544px;
+  height: 448px;
+  margin: 10px;
+  object-fit: contain;
+  margin-right: 20px;
 }
 
 .tonic-content {
-  margin-top: -10px;
+  margin-top: 30px;
 }
 
 .tonic-content h2 {
-  font-size: 40px;
+  font-size: 36px;
   margin-bottom: 10px;
   margin-top: 18px;
   margin-left: 8%;
@@ -204,9 +248,20 @@ ul li {
   list-style: none;
 }
 
+.tonic-flex {
+  max-width: 647px;
+  margin-top: 40px;
+}
+
+.tonic-flex .languages {
+  max-width: 647px;
+  margin-top: 40px;
+}
+
 .tonic-flex ul {
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
 
 .tonic-content-canopy {
@@ -255,6 +310,11 @@ ul li {
   border-radius: 8px;
 }
 
+.tonic-content-about {
+  display: flex;
+  margin-top: 20px;
+}
+
 .second-card-section {
   margin-bottom: 90px;
 }
@@ -283,10 +343,38 @@ ul li {
   width: 200px;
 }
 
+.all-components-about {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  width: 1156px;
+  height: 496px;
+}
+
 .about-myself-card .languages {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.desk-content {
+  width: 447px;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+
+.desk-content h2 {
+  font-size: 40px;
+  color: #091e42;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.desk-content p {
+  font-size: 16px;
+  color: #344563;
   margin-bottom: 20px;
 }
 
