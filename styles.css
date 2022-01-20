@@ -13,485 +13,854 @@ body {
   background-color: #e5e5e5;
 }
 
-.part-one-container {
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 60px;
-  background-image: url(./header-shapes\ mobile.png);
-  background-size: cover;
-  background-position-y: 20px;
-  background-position-x: 10px;
-  background-repeat: no-repeat;
-  z-index: 1;
-  border-bottom-left-radius: 80px;
-  background-color: white;
-}
-
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  align-items: center;
-  position: inherit;
-  margin: 0 auto;
-}
-
-.sub-header-container {
-  display: flex;
-  align-items: center;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  list-style: none;
-  color: #344563;
-  justify-content: space-between;
-  margin-right: 25px;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-}
-
-.logo img {
-  height: 40px;
-  width: 40px;
-  margin: 20px;
-  background-color: black;
-  border-radius: 50%;
-  padding: 2px;
-  align-content: center;
-  text-align: center;
-}
-
-.bars-icon {
-  margin: 20px;
-  align-content: center;
-  color: rgb(32, 28, 87);
-  display: none;
-}
-
-ul {
-  display: flex;
-}
-
-.image-intro ul {
-  display: flex;
-  list-style: none;
-}
-
-i {
-  color: rgb(42, 37, 110);
-  cursor: pointer;
-}
-
-.image-intro i {
-  margin-right: 10px;
-  font-size: 25px;
-  color: rgb(38, 38, 73);
-}
-
-.bars-icon .bars i {
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.main-container {
-  justify-content: flex-start;
-  padding: 20px;
-  margin-top: 30px;
-  font-family: "Poppins", sans-serif;
-  background-color: transparent;
-  margin: 0 auto;
-  width: 70%;
-  padding-top: 200px;
-  height: 716px;
-}
-
-p {
-  margin-bottom: 10px;
-  color: rgb(79, 88, 107);
-}
-
-.flexbox p {
-  font-size: 20px;
-  line-height: 32px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-  color: rgb(38, 38, 73);
-  line-height: 58px;
-}
-
-.icons-title h3 {
-  font-weight: 400;
-  color: #7f8cff;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.first-image img {
-  width: 320px;
-  height: 240px;
-  margin-left: -10px;
-}
-
-.first-card {
-  margin-left: -12px;
-  padding-top: 60px;
-}
-
-.first-card-section {
-  margin-bottom: 90px;
-}
-
-.all-components {
-  display: flex;
-  margin: 16px;
-  background-color: white;
-  padding-bottom: 60px;
-  border-radius: 16px;
-  margin-left: 25px;
-  width: 1156px;
-  margin: 0 auto;
-  height: 496px;
-}
-
-.all-components-one {
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 16px;
-  background-color: #f7f7f7;
-  padding: 20px;
-  padding-bottom: 60px;
-  border-radius: 16px;
-  margin-left: 25px;
-  width: 1156px;
-  margin: 0 auto;
-  height: 496px;
-}
-
-.all-components-navigation {
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 16px;
-  background-color: #f7f7f7;
-  padding: 20px;
-  padding-bottom: 60px;
-  border-radius: 16px;
-  margin-left: 25px;
-  width: 1156px;
-  margin: 0 auto;
-  height: 496px;
-}
-
-.about-myself-card {
-  background-color: #fff;
-  padding-bottom: 40px;
-  box-sizing: border-box;
-  margin: 0;
-  width: 100%;
-}
-
-.all-components .about-myself-card {
-  border-top-right-radius: 120px;
-}
-
-.first-image img {
-  width: 544px;
-  height: 448px;
-  margin: 10px;
-  object-fit: contain;
-  margin-right: 20px;
-}
-
-.tonic-content {
-  margin-top: 30px;
-  padding-right: 20px;
-  width: 496px;
-}
-
-.tonic-content-contact {
-  margin-top: 30px;
-  padding-right: 20px;
-  margin-bottom: 20px;
-  width: 569px;
-  display: flex;
-  flex-direction: column;
-}
-
-.tonic-content h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
-  margin-top: 18px;
-  color: #091e42;
-  line-height: 52px;
-  font-weight: 700;
-}
-
-.tonic-content h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-  margin-top: 18px;
-  color: #091e42;
-  line-height: 52px;
-  font-weight: 700;
-}
-
-ul li {
-  margin-top: 5px;
-  margin-bottom: 8px;
-  color: rgb(95, 95, 173);
-}
-
-.tonic-list li {
-  font-size: 13px;
-  color: #7a869a;
-  line-height: 16px;
-  margin-left: 25px;
-  margin-top: -2px;
-}
-
-.tonic-content ul li {
-  list-style: none;
-}
-
-.tonic-flex {
-  max-width: 647px;
-  margin-top: 40px;
-}
-
-.tonic-flex .languages {
-  max-width: 647px;
-  margin-top: 40px;
-}
-
-.tonic-flex ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-}
-
-.tonic-content-canopy {
-  display: flex;
-  align-items: baseline;
-  width: 300px;
-  margin-top: 10px;
-}
-
-.tonic-content-canopy p {
-  color: #344563;
-  position: static;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 16px;
-}
-
-.btne {
-  width: 148px;
-  margin: 0 auto;
-}
-
-.btn-tonic {
-  padding: 10px;
-  width: 147px;
-  font-size: 18px;
-  background-color: white;
-  border: 1px #396df2 solid;
-  border-radius: 8px;
-  color: #396df2;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.btn-tonic:hover {
-  background-color: #396df2;
-  color: white;
-}
-
-.tonic-courses ul li {
-  list-style: none;
-  margin-right: 10px;
-}
-
-.tonic-courses-about {
-  width: 447px;
-  margin: 0 auto;
-}
-
-.tonic-courses-about li {
-  list-style: none;
-  margin-right: 10px;
-}
-
-.tonic-courses ul li a {
-  margin-top: 20px;
-  text-decoration: none;
-  color: #6070ff;
-  background-color: #ebebff;
-  padding: 4px 12px;
-  border-radius: 8px;
-}
-
-.tonic-courses-about ul li a {
-  margin-top: 20px;
-  text-decoration: none;
-  color: #6070ff;
-  background-color: #ebebff;
-  padding: 4px 12px;
-  border-radius: 8px;
-}
-
-.tonic-content-about {
-  display: flex;
-  margin-top: 20px;
-}
-
-.second-card-section {
-  margin-bottom: 90px;
-}
-
-.third-card-section {
-  margin-bottom: 90px;
-}
-
-.fourth-card-section {
-  margin-bottom: 90px;
-}
-
-.about-myself-card h1 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.about-myself-card h3 {
-  color: #7f8cff;
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-.about-myself-card button {
-  width: 200px;
-}
-
-.all-components-about {
-  display: flex;
-  margin: 0 auto;
-  padding-bottom: 60px;
-  width: 1156px;
-  height: 496px;
-}
-
-.about-myself-card .languages {
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.desk-content {
-  width: 447px;
-  margin-right: 60px;
-  margin-top: 40px;
-}
-
-.desk-content h2 {
-  font-size: 40px;
-  color: #091e42;
-  margin-bottom: 20px;
-  font-weight: 700;
-  line-height: 52px;
-}
-
-.desk-content p {
-  font-size: 16px;
-  color: #344563;
-  margin-bottom: 20px;
-}
-
-.about-myself-card .abt-myself-courses-line img {
-  margin-bottom: 10px;
-  object-fit: cover;
-  display: none;
-}
-
-.contact-card-section {
-  background-color: #6070ff;
-  background-image: url(./asset//contact\ form\ shapes-mobile@2x.png);
-  background-repeat: no-repeat;
-  background-position-x: 10px;
-  background-position-y: 10px;
-  background-size: cover;
-  padding-top: 80px;
-  border-top-left-radius: 120px;
-  color: white;
-  width: 100%;
-  position: static;
-  height: 846px;
-}
-
-.contact-card-section .all-components {
-  background-color: transparent;
-  width: 801px;
-  justify-content: center;
-  margin-left: 20px;
-  margin: 0 auto;
-}
-
-.contact-card-section .all-components h2 {
-  color: white;
-  font-size: 40px;
-  line-height: 52px;
-  justify-content: center;
-  margin-left: 25%;
-  margin-bottom: 20px;
-}
-
-.contact-card-section p {
-  color: #ebebff;
-  margin-bottom: 28px;
-  justify-content: center;
-  font-size: 20px;
-  align-items: center;
-  align-content: center;
-  line-height: 28px;
-  display: flex;
-}
-
-.contact-card-section .tonic-courses-about {
-  display: grid;
-  margin-top: 10px;
-}
-
-.contact-card-section .tonic-courses-about input {
-  height: 48px;
-  outline: none;
-  margin-bottom: 15px;
-  border: none;
-  border-radius: 2px;
-  margin-bottom: 30px;
-}
-
-.contact-card-section .tonic-courses-about textarea {
-  color: rgb(126, 125, 125);
-}
-
-.end-bar {
-  display: flex;
-  justify-content: center;
-  margin-top: -26px;
+@media screen and (min-width: 992px) {
+  .part-one-container {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 60px;
+    background-image: url(./asset/header.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    border-bottom-left-radius: 80px;
+    background-color: white;
+    padding: 40px;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    position: inherit;
+    margin: 0 auto;
+  }
+
+  .sub-header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  nav ul li {
+    list-style: none;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #344563;
+    justify-content: space-between;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .logo img {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 2px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .bars-icon {
+    margin: 20px;
+    align-content: center;
+    color: rgb(32, 28, 87);
+    display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  .image-intro ul {
+    display: flex;
+    list-style: none;
+  }
+
+  i {
+    color: rgb(42, 37, 110);
+    cursor: pointer;
+  }
+
+  .image-intro i {
+    margin-right: 10px;
+    font-size: 25px;
+    color: rgb(38, 38, 73);
+  }
+
+  .bars-icon .bars i {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .main-container {
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 200px;
+    height: 716px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: rgb(79, 88, 107);
+  }
+
+  .flexbox p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: rgb(38, 38, 73);
+    line-height: 58px;
+  }
+
+  .icons-title h3 {
+    font-weight: 400;
+    color: #7f8cff;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .first-image img {
+    width: 320px;
+    height: 240px;
+    margin-left: -10px;
+  }
+
+  .first-card {
+    margin-left: -12px;
+    padding-top: 60px;
+  }
+
+  .first-card-section {
+    margin-bottom: 90px;
+  }
+
+  .all-components {
+    display: flex;
+    margin: 16px;
+    background-color: white;
+    padding-bottom: 60px;
+    border-radius: 16px;
+    margin-left: 25px;
+    width: 1156px;
+    margin: 0 auto;
+    height: 496px;
+  }
+
+  .all-components-one {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 16px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 16px;
+    margin-left: 25px;
+    width: 1156px;
+    margin: 0 auto;
+    height: 496px;
+  }
+
+  .all-components-navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 16px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 16px;
+    margin-left: 25px;
+    width: 1156px;
+    margin: 0 auto;
+    height: 496px;
+  }
+
+  .about-myself-card {
+    background-color: #fff;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+  }
+
+  .all-components .about-myself-card {
+    border-top-right-radius: 120px;
+  }
+
+  .first-image img {
+    width: 544px;
+    height: 448px;
+    margin: 10px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+
+  .tonic-content {
+    margin-top: 30px;
+    padding-right: 20px;
+    width: 496px;
+  }
+
+  .tonic-content-contact {
+    margin-top: 30px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 569px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tonic-content h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    color: #091e42;
+    line-height: 52px;
+    font-weight: 700;
+  }
+
+  .tonic-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    color: #091e42;
+    line-height: 52px;
+    font-weight: 700;
+  }
+
+  ul li {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: rgb(95, 95, 173);
+  }
+
+  .tonic-list li {
+    font-size: 13px;
+    color: #7a869a;
+    line-height: 16px;
+    margin-left: 25px;
+    margin-top: -2px;
+  }
+
+  .tonic-content ul li {
+    list-style: none;
+  }
+
+  .tonic-flex {
+    max-width: 647px;
+    margin-top: 40px;
+  }
+
+  .tonic-flex .languages {
+    max-width: 647px;
+    margin-top: 40px;
+  }
+
+  .tonic-flex ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .tonic-content-canopy {
+    display: flex;
+    align-items: baseline;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .tonic-content-canopy p {
+    color: #344563;
+    position: static;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  .btne {
+    width: 148px;
+    margin: 0 auto;
+  }
+
+  .btn-tonic {
+    padding: 10px;
+    width: 147px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px #396df2 solid;
+    border-radius: 8px;
+    color: #396df2;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .btn-tonic:hover {
+    background-color: #396df2;
+    color: white;
+  }
+
+  .tonic-courses ul li {
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .tonic-courses-about {
+    width: 447px;
+    margin: 0 auto;
+  }
+
+  .tonic-courses-about li {
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .tonic-courses ul li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6070ff;
+    background-color: #ebebff;
+    padding: 4px 12px;
+    border-radius: 8px;
+  }
+
+  .tonic-courses-about ul li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6070ff;
+    background-color: #ebebff;
+    padding: 4px 12px;
+    border-radius: 8px;
+  }
+
+  .tonic-content-about {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .second-card-section {
+    margin-bottom: 90px;
+  }
+
+  .third-card-section {
+    margin-bottom: 90px;
+  }
+
+  .fourth-card-section {
+    margin-bottom: 90px;
+  }
+
+  .about-myself-card h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .about-myself-card h3 {
+    color: #7f8cff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .about-myself-card button {
+    width: 200px;
+  }
+
+  .all-components-about {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    width: 1156px;
+    height: 496px;
+  }
+
+  .about-myself-card .languages {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .desk-content {
+    width: 447px;
+    margin-right: 60px;
+    margin-top: 40px;
+  }
+
+  .desk-content h2 {
+    font-size: 40px;
+    color: #091e42;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  .desk-content p {
+    font-size: 16px;
+    color: #344563;
+    margin-bottom: 20px;
+  }
+
+  .about-myself-card .abt-myself-courses-line img {
+    margin-bottom: 10px;
+    object-fit: cover;
+    display: none;
+  }
+
+  .contact-card-section {
+    background-color: #6070ff;
+    background-image: url(./asset/header.svg);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-size: contain;
+    padding-top: 80px;
+    border-top-left-radius: 120px;
+    color: white;
+    width: 100%;
+    position: static;
+    height: 846px;
+  }
+
+  .contact-card-section .all-components {
+    background-color: transparent;
+    width: 801px;
+    justify-content: center;
+    margin-left: 20px;
+    margin: 0 auto;
+  }
+
+  .contact-card-section .all-components h2 {
+    color: white;
+    font-size: 40px;
+    line-height: 52px;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 20px;
+  }
+
+  .contact-card-section p {
+    color: #ebebff;
+    margin-bottom: 28px;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    line-height: 28px;
+    display: flex;
+  }
+
+  .contact-card-section .tonic-courses-about {
+    display: grid;
+    margin-top: 10px;
+  }
+
+  .contact-card-section .tonic-courses-about input {
+    height: 48px;
+    outline: none;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 30px;
+  }
+
+  .contact-card-section .tonic-courses-about textarea {
+    color: rgb(126, 125, 125);
+  }
+
+  .end-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: -26px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .part-one-container {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-position: 20px 10px;
+    background-image: url(./header-shapes\ mobile.png);
+    background-size: contain;
+    background-position-y: 40px;
+    background-position-x: 1px;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: static;
+    margin-bottom: 60px;
+    background-color: white;
+    border-bottom-left-radius: 80px;
+    padding-bottom: 60px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-content {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: inherit;
+    margin: 0 0;
+    padding: 0;
+  }
+
+  .sub-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 2px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .bars-icon {
+    margin: 20px;
+    align-content: center;
+    color: rgb(32, 28, 87);
+  }
+
+  ul {
+    display: flex;
+  }
+
+  .image-intro ul {
+    display: flex;
+    list-style: none;
+  }
+
+  i {
+    color: rgb(42, 37, 110);
+    cursor: pointer;
+  }
+
+  .image-intro i {
+    margin-right: 10px;
+    font-size: 25px;
+    color: rgb(38, 38, 73);
+  }
+
+  .bars-icon .bars i {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .main-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: rgb(79, 88, 107);
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(38, 38, 73);
+  }
+
+  .icons-title h3 {
+    font-weight: 400;
+    color: #7f8cff;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .first-image img {
+    width: 320px;
+    height: 240px;
+    margin-left: -10px;
+  }
+
+  .first-card {
+    margin-left: -12px;
+    background-color: #e5e5e5;
+    padding-top: 60px;
+  }
+
+  .first-card-section {
+    margin-bottom: 90px;
+  }
+
+  .all-components {
+    display: grid;
+    margin: 16px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 16px;
+    margin-left: 25px;
+    border: 1px solid #dfe1e6;
+  }
+
+  .all-components-one {
+    display: grid;
+    margin: 16px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 16px;
+    margin-left: 25px;
+    border: 1px solid #dfe1e6;
+  }
+
+  .all-components-navigation {
+    display: grid;
+    margin: 16px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 16px;
+    margin-left: 25px;
+    border: 1px solid #dfe1e6;
+  }
+
+  .about-myself-card {
+    background-color: #fff;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+  }
+
+  .all-components .about-myself-card {
+    border-top-right-radius: 120px;
+    background-color: #091e42;
+  }
+
+  .first-image {
+    width: 300px;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .tonic-content {
+    margin-top: -10px;
+  }
+
+  .tonic-content h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  ul li {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: rgb(95, 95, 173);
+  }
+
+  .tonic-list li {
+    font-size: 13px;
+    color: #7a869a;
+    line-height: 16px;
+    margin-left: 25px;
+    margin-top: -2px;
+  }
+
+  .tonic-content ul li {
+    list-style: none;
+  }
+
+  .tonic-flex ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tonic-content-canopy {
+    display: flex;
+    align-items: baseline;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .tonic-content-canopy p {
+    color: #344563;
+    position: static;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  .btn-tonic {
+    padding: 10px;
+    width: 140px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px #396df2 solid;
+    border-radius: 8px;
+    color: #396df2;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .btn-tonic:hover {
+    background-color: #ebebff;
+    color: black;
+  }
+
+  .tonic-courses ul li {
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .tonic-courses ul li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6070ff;
+    background-color: #ebebff;
+    padding: 4px 12px;
+    border-radius: 8px;
+    display: flex;
+  }
+
+  .second-card-section {
+    margin-bottom: 90px;
+  }
+
+  .third-card-section {
+    margin-bottom: 90px;
+  }
+
+  .fourth-card-section {
+    margin-bottom: 90px;
+  }
+
+  .about-myself-card h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .about-myself-card h3 {
+    color: #7f8cff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .about-myself-card button {
+    width: 200px;
+  }
+
+  .about-myself-card .languages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-myself-card .abt-myself-courses img {
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+
+  .contact-card-section {
+    background-color: #6070ff;
+    background-image: url(./asset//contact\ form\ shapes-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    background-position-y: 10px;
+    padding-top: 80px;
+    border-top-left-radius: 80px;
+    color: white;
+    width: 100%;
+    position: static;
+  }
+
+  .contact-card-section .all-components {
+    background-color: transparent;
+  }
+
+  .contact-card-section p {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .contact-card-section .tonic-courses {
+    display: grid;
+    margin-top: 10px;
+  }
+
+  .contact-card-section .tonic-courses input {
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  .contact-card-section .tonic-courses textarea {
+    color: rgb(202, 199, 199);
+    border-radius: 8px;
+  }
+
+  .all-components-about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    margin: 35px;
+  }
+
+  .all-components-about h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    color: #091e42;
+    line-height: 52px;
+  }
+
+  .all-components-about ul {
+    list-style: none;
+  }
+
+  .abt-myself-courses-block {
+    display: none;
+  }
+
+  .abt-myself-courses-line img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
 }
