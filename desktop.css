@@ -428,9 +428,8 @@
   .contact-card-section .all-components {
     background-color: transparent;
     width: 801px;
-    margin: 0 auto;
     justify-content: center;
-    margin-left: 20px;
+    margin: 0 auto;
   }
 
   .contact-card-section .all-components h2 {
