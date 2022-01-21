@@ -1,6 +1,6 @@
 # Responsive portfolio design
 
-# Using flexbox and grid
+# Using flexbox, grid, media Queries, ...
 
 > Simple design of mobile-porfolio-skeleton
 > Desktop version
@@ -25,7 +25,7 @@ Getting localy a copy of this project you should be aware of several steps below
 
 Make sure:
 
-- You have few knowledge about Html, Css, flexbox,grid, Github and Linters
+- You have few knowledge about Html, Css, flexbox, media queries, grid, Github and Linters
 - You have installed Live Server to view the project in the browser.
 
 ### Usage
