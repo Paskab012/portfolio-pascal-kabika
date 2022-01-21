@@ -9,7 +9,7 @@
 > Simple design of mobile-porfolio-skeleton
 > Mobile phone view on Motorola G4
 
-![screenshot](./motoG4.png)!
+![screenshot](./moto.png)!
 
 ## Built With
 
