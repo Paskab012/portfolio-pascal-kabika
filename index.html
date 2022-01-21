@@ -11,28 +11,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+    <link rel="stylesheet" href="./desktop.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="part-one-container">
       <header class="header-content">
-        <div class="sub-header-container">
+        <nav>
           <div class="logo">
             <a href="#"
               ><img src="./asset/pascal-pasc-logo.png" alt="Logo"
             /></a>
           </div>
-          <nav class="bars-icon">
+          <div class="bars-icon">
             <span class="bars"><i class="fa fa-bars"></i></span>
-          </nav>
-        </div>
+          </div>
+          <div class="menu">
+            <ul class="links-menu">
+              <li><a href="#" class="menu-link">Portfolio</a></li>
+              <li><a href="#" class="menu-link">About</a></li>
+              <li><a href="#" class="menu-link">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
       </header>
 
       <div class="main-container">
         <section class="main-section">
           <div class="flexbox">
-            <h1>I'm Pascal <br />Glad to see <br />you!</h1>
+            <h1>I'm Pascal <br />Glad to see you!</h1>
             <p>
               I am a software developer! I can help you build a product, feature
               or websitw Look through some of my work and experience! if you
@@ -72,7 +80,7 @@
       <section class="first-card-section">
         <div class="all-components">
           <div class="first-image">
-            <img src="./asset/Snapshoot.png" alt="" />
+            <img src="./asset/nature.png" alt="" />
           </div>
           <div class="tonic-content">
             <h1>TONIC</h1>
@@ -101,9 +109,9 @@
         </div>
       </section>
       <section class="second-card-section">
-        <div class="all-components">
+        <div class="all-components-one">
           <div class="first-image">
-            <img src="./asset/Snapshoot(1).png" alt="" />
+            <img src="./asset/Snapshoot(3).png" alt="" />
           </div>
           <div class="tonic-content">
             <h1>Multi-post <br />Stories</h1>
@@ -122,6 +130,7 @@
               <ul>
                 <li><a href="#">html</a></li>
                 <li><a href="#">css</a></li>
+                <li class="ruby"><a href="#">Ruby on rails</a></li>
                 <li><a href="#">javascript</a></li>
               </ul>
             </div>
@@ -137,7 +146,7 @@
             <img src="./asset/Snapshoot(2).png" alt="" />
           </div>
           <div class="tonic-content">
-            <h1>Multi-post <br />Stories</h1>
+            <h1>Facebook 360</h1>
             <div class="tonic-content-canopy">
               <p>CANOPY</p>
               <ul class="tonic-list">
@@ -153,6 +162,7 @@
               <ul>
                 <li><a href="#">html</a></li>
                 <li><a href="#">css</a></li>
+                <li><a href="#">Ruby on rails</a></li>
                 <li><a href="#">javascript</a></li>
               </ul>
             </div>
@@ -163,12 +173,12 @@
         </div>
       </section>
       <section class="fourth-card-section">
-        <div class="all-components">
+        <div class="all-components-navigation">
           <div class="first-image">
-            <img src="./asset/Snapshoot(3).png" alt="" />
+            <img src="./asset/availability.png" alt="" />
           </div>
           <div class="tonic-content">
-            <h2>TONIC</h2>
+            <h2>Uber Navigation</h2>
             <div class="tonic-content-canopy">
               <p>CANOPY</p>
               <ul class="tonic-list">
@@ -184,6 +194,7 @@
               <ul>
                 <li><a href="#">html</a></li>
                 <li><a href="#">css</a></li>
+                <li><a href="#">Ruby on rails</a></li>
                 <li><a href="#">javascript</a></li>
               </ul>
             </div>
@@ -194,44 +205,43 @@
         </div>
       </section>
       <section class="about-myself-card">
-        <div class="all-components">
-          <!-- <div class="first-image">
-            <img src="./asset/Snapshoot Portfolio.png" alt="" />
-          </div> -->
-          <div class="tonic-content">
-            <h2>
-              About <br />
-              Myself
-            </h2>
+        <div class="all-components-about">
+          <div class="tonic-content-about">
+            <div class="desk-content">
+              <h2>
+                About <br />
+                Myself
+              </h2>
 
-            <p>
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <h3 class="about-myself-connect">LET'S CONNECT</h3>
-            <div class="image-intro">
-              <ul>
-                <li>
-                  <a href="#"><i class="fab fa-github"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-solid fa-hand-peace"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="btn">
-              <button class="btn-tonic" type="submit">Get my resume</button>
+              <p>
+                Hello I’m a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.
+              </p>
+              <h3 class="about-myself-connect">LET'S CONNECT</h3>
+              <div class="image-intro">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-hand-peace"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn">
+                <button class="btn-tonic" type="submit">Get my resume</button>
+              </div>
             </div>
             <div class="tonic-flex">
               <ul>
@@ -242,10 +252,13 @@
                   </div>
                 </li>
                 <li>
-                  <div class="abt-myself-courses">
+                  <div class="abt-myself-courses-line">
                     <a href=""><img src="./asset/fram9.png" alt="" /></a>
                     <a href=""><img src="./asset/frame10.png" alt="" /></a>
                     <a href=""><img src="./asset/frame11.png" alt="" /></a>
+                  </div>
+                  <div class="abt-myself-courses-block">
+                    <a href=""><img src="./asset/css.png" alt="" /></a>
                   </div>
                 </li>
                 <li>
@@ -275,14 +288,14 @@
         method="POST"
       >
         <div class="all-components">
-          <div class="tonic-content">
+          <div class="tonic-content-contact">
             <h2>Contact me</h2>
             <p>
               If you have an application you are intersted in developing, a
               feature that you need built or a project that needs codiing, I'd
               love to help with it.
             </p>
-            <div class="tonic-courses">
+            <div class="tonic-courses-about">
               <input
                 type="text"
                 placeholder="Mack donald"
@@ -301,7 +314,7 @@
                   write your message here</textarea
               >
             </div>
-            <div class="btn">
+            <div class="btne">
               <button class="btn-tonic" type="submit">Get In Touch</button>
             </div>
           </div>
