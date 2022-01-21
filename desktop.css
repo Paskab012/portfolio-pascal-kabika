@@ -450,6 +450,7 @@
     align-content: center;
     line-height: 28px;
     display: flex;
+    text-align: center;
   }
 
   .contact-card-section .tonic-courses-about {
@@ -463,10 +464,17 @@
     border: none;
     border-radius: 2px;
     margin-bottom: 30px;
+    font-size: 17px;
+    color: #172b4d;
+    padding-left: 20px;
   }
 
   .contact-card-section .tonic-courses-about textarea {
-    color: rgb(126, 125, 125);
+    color: #b3bac5;
+    height: 170px;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 24px;
   }
 
   .end-bar {

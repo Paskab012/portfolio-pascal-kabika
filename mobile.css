@@ -349,6 +349,7 @@ body {
   .contact-card-section p {
     color: white;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   .contact-card-section .tonic-courses-about {
