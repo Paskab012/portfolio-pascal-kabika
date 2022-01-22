@@ -65,6 +65,37 @@
     text-align: center;
   }
 
+  .first-image img {
+    width: 320px;
+    height: 240px;
+    margin-left: -10px;
+  }
+
+  .abt-myself-courses-line img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .logo img:hover,
+  .logo img :focus {
+    animation: change-color 2s linear 1s infinite both;
+  }
+
+  @keyframes change-color {
+    0% {
+      color: #f3bc97;
+      padding: 30px;
+    }
+
+    50% {
+      color: #7a4928;
+    }
+
+    100% {
+      color: #2b1303;
+    }
+  }
+
   .bars-icon {
     margin: 20px;
     align-content: center;
@@ -119,12 +150,6 @@
     color: #7f8cff;
     margin-bottom: 10px;
     font-size: 18px;
-  }
-
-  .first-image img {
-    width: 320px;
-    height: 240px;
-    margin-left: -10px;
   }
 
   .first-card {
@@ -236,6 +261,23 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 16px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+    0% {
+      color: #091e42;
+    }
+
+    50% {
+      color: #396df2;
+    }
+
+    100% {
+      color: #6e91e9;
+    }
   }
 
   .btn-tonic {
@@ -303,11 +345,6 @@
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-
-  .abt-myself-courses-line img {
-    margin-bottom: 20px;
-    width: 100%;
   }
 
   .about-myself-card .abt-myself-courses img {
