@@ -28,6 +28,10 @@ Make sure:
 - You have few knowledge about Html, Css, flexbox, media queries, grid, Github and Linters
 - You have installed Live Server to view the project in the browser.
 
+### VIEW DEMO
+
+https://kabika681.github.io/portfolio-pascal-kabika/
+
 ### Usage
 
 1. Use this link ( `git@github.com:KABIKA681/porfolio-part2-flexbox-and-grid.git`)to clone the repository and then run it into your computer
