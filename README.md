@@ -30,7 +30,7 @@ Make sure:
 
 ### VIEW DEMO
 
-[Live demo](https://kabika681.github.io/portfolio-pascal-kabika/) => Link
+[Click here to view demo](https://kabika681.github.io/portfolio-pascal-kabika/)
 
 ### Usage
 
