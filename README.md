@@ -33,6 +33,10 @@ Make sure:
 1. Use this link ( `git@github.com:KABIKA681/porfolio-part2-flexbox-and-grid.git`)to clone the repository and then run it into your computer
 2. Open the Html document localy(into your computer), open index.html file.
 
+### VIEW LIVE
+
+https://kabika681.github.io/portfolio-pascal-kabika/
+
 👤 **\*Pascal Kabika Mp**
 
 - GitHub: [KABIKA681](https://github.com/KABIKA681?tab=overview&from=2021-12-01&to=2021-12-31)
