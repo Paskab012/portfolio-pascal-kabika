@@ -29,6 +29,7 @@
     </script>
     <title>Pascal Kabika's Portfolio</title>
   </head>
+
   <body>
     <div class="part-one-container">
       <header class="header-content">
@@ -39,13 +40,18 @@
             /></a>
           </div>
           <div class="bars-icon">
-            <span class="bars"><i class="fa fa-bars"></i></span>
+            <span><i class="fa fa-bars open-button"></i></span>
+            <span><i class="fas fa-times close-button"></i></span>
           </div>
           <div class="menu">
             <ul class="links-menu">
-              <li><a href="#" class="menu-link">Portfolio</a></li>
-              <li><a href="#" class="menu-link">About</a></li>
-              <li><a href="#" class="menu-link">Contact</a></li>
+              <li>
+                <a href="#first-card-section" class="navigate">Portfolio</a>
+              </li>
+              <li><a href="#about-myself-card" class="navigate">About</a></li>
+              <li>
+                <a href="#contact-card-section" class="navigate">Contact</a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -310,13 +316,22 @@
               love to help with it.
             </p>
             <div class="tonic-courses-about">
+              <label for="username">Username</label>
               <input
+                id="username"
                 type="text"
                 placeholder="Mack donald"
                 maxlength="30"
                 required
               />
-              <input type="email" placeholder="mackdo@gmail.com" required />
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="mackdo@gmail.com"
+                required
+              />
+              <label for="msg">Message</label>
               <textarea
                 name="contact"
                 id="msg"
