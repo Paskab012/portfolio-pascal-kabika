@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 * {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 992px) {
@@ -15,7 +15,7 @@
 
   .part-one-container {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-position: 20px 10px;
     background-image: url(./header-shapes\ mobile.png);
     background-size: contain;
@@ -28,10 +28,74 @@
     background-color: white;
     border-bottom-left-radius: 80px;
     padding-bottom: 60px;
+    z-index: 99;
   }
 
-  .menu {
-    display: none;
+  .links-menu {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 90%;
+    height: 800px;
+    background-color: #6070ff;
+    opacity: 0.9;
+    flex-direction: column;
+    justify-content: start;
+    transform: translate(-100%);
+    transition: transform 1s;
+  }
+
+  ul li {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: rgb(95, 95, 173);
+  }
+
+  .tonic-list li {
+    font-size: 13px;
+    color: #7a869a;
+    line-height: 16px;
+    margin-left: 25px;
+    margin-top: -2px;
+  }
+
+  .tonic-courses ul li {
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .tonic-courses ul li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6070ff;
+    background-color: #ebebff;
+    padding: 4px 12px;
+    border-radius: 8px;
+    display: flex;
+  }
+
+  .tonic-content ul li {
+    list-style: none;
+  }
+
+  .menu .links-menu li {
+    list-style: none;
+  }
+
+  .menu .links-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .menu .links-menu li a:hover {
+    color: white;
+    font-size: 25px;
+    border-bottom: 1px solid tomato;
   }
 
   nav {
@@ -46,6 +110,14 @@
     position: inherit;
     margin: 0 0;
     padding: 0;
+  }
+
+  .flexbox {
+    margin-top: 26%;
+  }
+
+  .flexbox.active {
+    margin-top: -900px;
   }
 
   .sub-header-container {
@@ -97,9 +169,28 @@
   }
 
   .bars-icon {
+    display: flex;
     margin: 20px;
+    margin-left: 58%;
     align-content: center;
     color: rgb(32, 28, 87);
+    z-index: 30;
+  }
+
+  .open-button {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .close-button {
+    display: none;
+    font-size: 30px;
+    margin: 1.5rem;
+  }
+
+  .display-non {
+    display: none;
   }
 
   ul {
@@ -120,11 +211,6 @@
     margin-right: 10px;
     font-size: 25px;
     color: rgb(38, 38, 73);
-  }
-
-  .bars-icon .bars i {
-    font-size: 30px;
-    cursor: pointer;
   }
 
   .main-container {
@@ -225,24 +311,6 @@
     margin-top: 20px;
   }
 
-  ul li {
-    margin-top: 5px;
-    margin-bottom: 8px;
-    color: rgb(95, 95, 173);
-  }
-
-  .tonic-list li {
-    font-size: 13px;
-    color: #7a869a;
-    line-height: 16px;
-    margin-left: 25px;
-    margin-top: -2px;
-  }
-
-  .tonic-content ul li {
-    list-style: none;
-  }
-
   .tonic-flex ul {
     display: flex;
     flex-direction: column;
@@ -295,21 +363,6 @@
   .btn-tonic:hover {
     background-color: #ebebff;
     color: black;
-  }
-
-  .tonic-courses ul li {
-    list-style: none;
-    margin-right: 10px;
-  }
-
-  .tonic-courses ul li a {
-    margin-top: 20px;
-    text-decoration: none;
-    color: #6070ff;
-    background-color: #ebebff;
-    padding: 4px 12px;
-    border-radius: 8px;
-    display: flex;
   }
 
   .second-card-section {
