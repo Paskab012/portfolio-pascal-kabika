@@ -47,6 +47,39 @@
     transition: transform 1s;
   }
 
+  ul li {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: rgb(95, 95, 173);
+  }
+
+  .tonic-list li {
+    font-size: 13px;
+    color: #7a869a;
+    line-height: 16px;
+    margin-left: 25px;
+    margin-top: -2px;
+  }
+
+  .tonic-courses ul li {
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .tonic-courses ul li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6070ff;
+    background-color: #ebebff;
+    padding: 4px 12px;
+    border-radius: 8px;
+    display: flex;
+  }
+
+  .tonic-content ul li {
+    list-style: none;
+  }
+
   .menu .links-menu li {
     list-style: none;
   }
@@ -125,17 +158,9 @@
     margin: 1.5rem;
   }
 
-.display-non {
-  display: none;
-}
-
-  /* .menu-open .open-button {
+  .display-non {
     display: none;
   }
-
-  .menu-open .close-button {
-    color: #fff;
-  } */
 
   ul {
     display: flex;
@@ -261,24 +286,6 @@
     margin-top: 20px;
   }
 
-  ul li {
-    margin-top: 5px;
-    margin-bottom: 8px;
-    color: rgb(95, 95, 173);
-  }
-
-  .tonic-list li {
-    font-size: 13px;
-    color: #7a869a;
-    line-height: 16px;
-    margin-left: 25px;
-    margin-top: -2px;
-  }
-
-  .tonic-content ul li {
-    list-style: none;
-  }
-
   .tonic-flex ul {
     display: flex;
     flex-direction: column;
@@ -314,21 +321,6 @@
   .btn-tonic:hover {
     background-color: #ebebff;
     color: black;
-  }
-
-  .tonic-courses ul li {
-    list-style: none;
-    margin-right: 10px;
-  }
-
-  .tonic-courses ul li a {
-    margin-top: 20px;
-    text-decoration: none;
-    color: #6070ff;
-    background-color: #ebebff;
-    padding: 4px 12px;
-    border-radius: 8px;
-    display: flex;
   }
 
   .second-card-section {
