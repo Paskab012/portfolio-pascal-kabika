@@ -1,16 +1,19 @@
 const selectAll = document.querySelector("body");
-const menuLinks = document.getElementsByClassName("bars-icon");
-console.log(selectAll);
-console.log(menulinks);
+const menuLinks = document.querySelectorAll(".menuTog");
+const mobileMenu = document.querySelector(".menu");
+
+console.log(menuLinks);
 // Display Mobile Menu
-menuLinks.addEventListener("click", () => {
-  selectAll.classList.toggle("menu-open");
-});
+
+function mobileMenuT() {
+  mobileMenu.classList.toggle("display-non");
+  menuLinks[0].classList.toggle("display-non");
+  menuLinks[1].classList.toggle("display-non");
+}
+
+menuLinks[0].addEventListener("click", mobileMenuT);
+menuLinks[1].addEventListener("click", mobileMenuT);
 
 const navLink = document.querySelectorAll(".navigate");
 
-navLink.forEach((e) =>
-  e.addEventListener("click", () => {
-    selectAll.classList.remove("menu-open");
-  })
-);
+navLink.forEach((e) => e.addEventListener("click", mobileMenuT));

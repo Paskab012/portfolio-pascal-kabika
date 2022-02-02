@@ -125,15 +125,17 @@
     margin: 1.5rem;
   }
 
-  .menu-open .open-button {
+.display-non {
+  display: none;
+}
+
+  /* .menu-open .open-button {
     display: none;
   }
 
   .menu-open .close-button {
-    display: flex;
-    flex-direction: column;
     color: #fff;
-  }
+  } */
 
   ul {
     display: flex;
