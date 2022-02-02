@@ -1,4 +1,3 @@
-const selectAll = document.querySelector('body');
 const menuLinks = document.querySelectorAll('.menuTog');
 const mobileMenu = document.querySelector('.menu');
 
