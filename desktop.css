@@ -1,6 +1,6 @@
 @media screen and (min-width: 992px) {
   .part-one-container {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 60px;
     background-image: url(./asset/header.svg);
     background-size: cover;
@@ -51,7 +51,7 @@
     margin-right: 25px;
     font-size: 15px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 22px;
   }
 
   .logo img {
@@ -100,7 +100,7 @@
   .main-container {
     justify-content: flex-start;
     padding: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: transparent;
     margin: 0 auto;
     width: 70%;
