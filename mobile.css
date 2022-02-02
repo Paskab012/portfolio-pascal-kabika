@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 * {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 992px) {
@@ -15,7 +15,7 @@
 
   .part-one-container {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-position: 20px 10px;
     background-image: url(./header-shapes\ mobile.png);
     background-size: contain;

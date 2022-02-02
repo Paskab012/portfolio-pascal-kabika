@@ -1,7 +1,6 @@
-const menuLinks = document.querySelectorAll('menuTog');
+const selectAll = document.querySelector('body');
+const menuLinks = document.querySelectorAll('.menuTog');
 const mobileMenu = document.querySelector('.menu');
-
-// Display Mobile Menu
 
 function mobileMenuT() {
   mobileMenu.classList.toggle('display-non');
