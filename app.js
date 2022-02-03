@@ -1,74 +1,74 @@
-const menuLinks = document.querySelectorAll('.menuTog');
-const mobileMenu = document.querySelector('.menu');
-const myPortfolio = document.querySelector('#first-card-section');
+const menuLinks = document.querySelectorAll(".menuTog");
+const mobileMenu = document.querySelector(".menu");
+const myPortfolio = document.querySelector("#first-card-section");
 
 function mobileMenuT() {
-  mobileMenu.classList.toggle('display-non');
-  menuLinks[0].classList.toggle('display-non');
-  menuLinks[1].classList.toggle('display-non');
+  mobileMenu.classList.toggle("display-non");
+  menuLinks[0].classList.toggle("display-non");
+  menuLinks[1].classList.toggle("display-non");
 }
 
-menuLinks[0].addEventListener('click', mobileMenuT);
-menuLinks[1].addEventListener('click', mobileMenuT);
+menuLinks[0].addEventListener("click", mobileMenuT);
+menuLinks[1].addEventListener("click", mobileMenuT);
 
-const navLink = document.querySelectorAll('.navigate');
+const navLink = document.querySelectorAll(".navigate");
 
-navLink.forEach((e) => e.addEventListener('click', mobileMenuT));
+navLink.forEach((e) => e.addEventListener("click", mobileMenuT));
 
 //****************DETAILS PAGE*****************/
 
 const datas = [
   {
     id: 1,
-    title: 'Tonic',
-    subTitle: 'CANOPY',
-    image: './asset/nature.png',
-    imageAlt: 'nature image',
-    canopy: ['Back End Dev', '2022'],
+    title: "Tonic",
+    subTitle: "CANOPY",
+    image: "./asset/nature.png",
+    imageAlt: "nature image",
+    canopy: ["Back End Dev", "2022"],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    courses: ['html', 'css', 'javaScript'],
-    sourcebtn: '#',
-    linkBtn: '#',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    courses: ["html", "css", "javaScript"],
+    sourcebtn: "#",
+    linkBtn: "#",
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
-    subTitle: 'CANOPY',
-    image: './asset/Snapshoot(3).png',
-    imageAlt: 'snapshop image',
-    canopy: ['Back End Dev', '2022'],
+    title: "Multi-Post Stories",
+    subTitle: "CANOPY",
+    image: "./asset/Snapshoot(3).png",
+    imageAlt: "snapshop image",
+    canopy: ["Back End Dev", "2022"],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    courses: ['html', 'css', 'javaScript'],
-    sourcebtn: '#',
-    linkBtn: '#',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    courses: ["html", "css", "javaScript"],
+    sourcebtn: "#",
+    linkBtn: "#",
   },
   {
     id: 3,
-    title: 'Facebook 360',
-    subTitle: 'CANOPY',
-    image: './asset/Snapshoot(2).png',
-    imageAlt: 'accrobate lady image',
-    canopy: ['Back End Dev', '2022'],
+    title: "Facebook 360",
+    subTitle: "CANOPY",
+    image: "./asset/Snapshoot(2).png",
+    imageAlt: "accrobate lady image",
+    canopy: ["Back End Dev", "2022"],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    courses: ['html', 'css', 'javaScript', 'Ruby on rails'],
-    sourcebtn: '#',
-    linkBtn: '#',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    courses: ["html", "css", "javaScript", "Ruby on rails"],
+    sourcebtn: "#",
+    linkBtn: "#",
   },
   {
     id: 4,
-    title: 'Multi-Post Stories',
-    subTitle: 'CANOPY',
-    image: './asset/Snapshoot(2).png',
-    imageAlt: 'accrobate lady image',
-    canopy: ['Back End Dev', '2022'],
+    title: "Multi-Post Stories",
+    subTitle: "CANOPY",
+    image: "./asset/Snapshoot(2).png",
+    imageAlt: "accrobate lady image",
+    canopy: ["Back End Dev", "2022"],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    courses: ['html', 'css', 'javaScript', 'Ruby on rails'],
-    sourcebtn: '#',
-    linkBtn: '#',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    courses: ["html", "css", "javaScript", "Ruby on rails"],
+    sourcebtn: "#",
+    linkBtn: "#",
   },
 ];
 
@@ -77,7 +77,7 @@ for (let i = 0; i < datas.length; i += 1) {
   console.log(i);
 
   myPortfolio.innerHTML += `
-  <div class='all-components'>
+  <div class='all-components' data-popup-start="myPopup-${i}">
     <div class='first-image'>
       <img src='${datas[i].image}' alt='${datas[i].imageAlt}' />
     </div>
@@ -107,7 +107,7 @@ for (let i = 0; i < datas.length; i += 1) {
         </ul>
       </div>
       <div class='btn'>
-        <button type='submit' data-popup-ref="myPopup${i}" class="btn-tonic">
+        <button type='submit' data-popup-ref="myPopup-${i}" class="btn-tonic">
           See Project
         </button>
       </div>
@@ -115,43 +115,27 @@ for (let i = 0; i < datas.length; i += 1) {
   </div>
   `;
 }
-const btnPop = document.querySelectorAll('.btn-tonic');
 
-btnPop.forEach((e) => {
-  e.addEventListener('click', () => {
-    function popupPgae() {
-      const atr = e.getAttribute('class');
-      console.log(atr);
+const popupBtn = document.querySelectorAll(".btn-tonic");
+
+popupBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const popupId = btn.getAttribute("data-popup-ref");
+    const popup = document.querySelector(`[data-popup-id='${popupId}']`);
+
+    if (popup !== undefined && popup !== null) {
+      const closeBtns = popup.querySelectorAll("[remove-popup]");
+      popup.classList.remove("hidden");
+      popup.scrollIntoView();
+
+      // 
+      closeBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          popup.classList.add("hidden");
+          const popupStart = document.querySelector(`[data-popup-start='${popupId}']`);
+          popupStart.scrollIntoView();
+        });
+      });
     }
   });
 });
-
-// popupsBtn.forEach((btn) => {
-//   btn.addEventListener('click', () => {
-//     const popupId = btn.getAttribute('data-popup-ref');
-//     const popup = document.querySelector(`[data-popup-id='${popupId}']`);
-
-//     if (popup !== undefined && popup !== null) {
-//       const popupContent = popup.querySelector('.popup-content');
-//       const closeBtns = popup.querySelectorAll('[data-dismiss-popup]');
-
-//       closeBtns.forEach((btn) => {
-//         btn.addEventListener('click', () => {
-//           setTimeout(() => {
-//             popup.classList.remove('active');
-//           }, 250);
-//           popupContent.classList.remove('active');
-//         });
-//       });
-
-//       popupContent.addEventListener('click', (e) => {
-//         e.stopPropagation();
-//       });
-
-//       popup.classList.add('active');
-//       setTimeout(() => {
-//         popupContent.classList.add('active');
-//       }, 1);
-//     }
-//   });
-// });

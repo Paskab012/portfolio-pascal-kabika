@@ -101,11 +101,6 @@ h1 {
   font-weight: 700;
 }
 
-.first-card-section {
-  display: flex;
-  align-items: center;
-}
-
 .all-components {
   display: grid;
   margin: 16px;
@@ -167,15 +162,21 @@ h1 {
   top: 10%;
 }
 
-.first-card-section.active {
-  display: inline-block;
-}
+
 
 button:active {
   background: #2230d2;
   color: #fff;
 }
 
-.hidden {
+.second-card-section {
+  display: flex;
+  align-items: center;
+  z-index: 80;
+  position: absolute;
+  top: 0;
+}
+
+.second-card-section.hidden {
   display: none;
 }
