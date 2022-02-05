@@ -23,7 +23,7 @@ function inputForm() {
 
 window.addEventListener('load', inputForm);
 
-for (let n = 0; n < contactCard.length - 1; n += 1) {
+for (let n = 0; n < contactCard.length; n += 1) {
   contactCard[n].addEventListener('change', () => {
     userLocalStorage();
   });
