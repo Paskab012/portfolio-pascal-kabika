@@ -108,6 +108,46 @@ for (let i = 0; i < datas.length; i += 1) {
       </div>
     </div>
   </div>
+  
+  <section class="second-card-section hidden" data-popup-id="myPopup-${i}">
+    <div class="all-components-single">
+      <div class="tonic-content-single">
+        <h1>${datas[i].title}</h1>
+        <i class="fas fa-times close-popup" data-remove-popup="0"></i>
+      </div>
+      <div class="tonic-content-canopy">
+        <p>CANOPY</p>
+        <ul class="tonic-list-single">
+          <li>Back End Dev</li>
+          <li>2021</li>
+        </ul>
+      </div>
+      <div class="first-image-single">
+        <img src='${datas[i].image}' alt='${datas[i].imageAlt}' />
+      </div>
+      <p>
+        ${datas[i].description}
+      </p>
+      <div class="tonic-courses-single">
+        <ul>
+          <li><a href="#">html</a></li>
+          <li><a href="#">css</a></li>
+          <li><a href="#">javascript</a></li>
+        </ul>
+        <hr class="line" />
+      </div>
+
+      <div class="btn">
+        <button type="submit" class="btn-tonic-single">See live</button>
+        <button type="submit" class="btn-tonic-single">See Code</button>
+      </div>
+    </div>
+    <div class="end-bar">
+      <div class="line">
+        <img src="/line.png" alt="" />
+      </div>
+    </div>
+  </section>
   `;
 }
 
