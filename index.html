@@ -145,33 +145,27 @@
                     <a><i class="fas fa-chevron-down"></i></a>
                   </div>
                 </li>
-                <li>
-                  <div class="abt-myself-courses-line">
-                    <a href=""><img src="./asset/fram9.png" alt="" /></a>
-                    <a href=""><img src="./asset/frame10.png" alt="" /></a>
-                    <a href=""><img src="./asset/frame11.png" alt="" /></a>
-                  </div>
-                  <div class="abt-myself-courses-block">
-                    <a href=""><img src="./asset/css.png" alt="" /></a>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="languages">
-                    <p>Frameworks</p>
-                    <a><i class="fas fa-chevron-right"></i></a>
-                  </div>
-                  <hr />
-                </li>
-                <li>
-                  <div class="languages">
-                    <p>Skills</p>
-                    <a>
-                      <i class="fas fa-chevron-right"> </i>
-                    </a>
-                  </div>
-                </li>
               </ul>
+                <div class="abt-myself-courses-line">
+                  <a href=""><img src="./asset/fram9.png" alt="" /></a>
+                  <a href=""><img src="./asset/frame10.png" alt="" /></a>
+                  <a href=""><img src="./asset/frame11.png" alt="" /></a>
+                </div>
+                <div class="abt-myself-courses-block">
+                  <a href=""><img src="./asset/css.png" alt="" /></a>
+                </div>
+                <div class="languages">
+                  <p>Frameworks</p>
+                  <a><i class="fas fa-chevron-right"></i></a>
+                </div>
+                <hr />
+                <div class="languages">
+                  <p>Skills</p>
+                  <a>
+                    <i class="fas fa-chevron-right"> </i>
+                  </a>
+                </div>
+
               <hr />
             </div>
           </div>
@@ -182,7 +176,7 @@
         action="https://formspree.io/f/mgedoznz"
         class="contact-card-section"
         method="POST"
-        id="contact-card-section"
+        id="contact-card"
       >
         <div class="all-components">
           <div class="tonic-content-contact">
@@ -197,28 +191,32 @@
               <input
                 id="username"
                 type="text"
-                placeholder="Mack donald"
+                name="fullName"
+                placeholder="Full Name"
                 maxlength="30"
+                value=""
                 required
               />
               <label for="email">Email</label>
               <input
                 id="email"
+                name="email-address"
                 type="email"
-                placeholder="mackdo@gmail.com"
+                placeholder="Email address"
+                value=""
                 required
               />
-              <label for="msg">Message</label>
+              <label>Message</label>
               <textarea
                 name="contact"
-                id="msg"
+                id="message"
                 cols="30"
                 rows="10"
                 maxlength="500"
+                placeholder="Write tour message here"
                 required
-              >
-                  write your message here</textarea
-              >
+              ></textarea>
+              <small id="error-message"></small>
             </div>
             <div class="btne">
               <button class="btn-tonic" type="submit">Get In Touch</button>
@@ -233,5 +231,6 @@
       </div>
     </main>
     <script src="./app.js"></script>
+    <script src="./storage.js"></script>
   </body>
 </html>

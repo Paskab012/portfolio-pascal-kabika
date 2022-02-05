@@ -460,6 +460,7 @@
   .contact-card-section .tonic-courses-about textarea {
     color: rgb(202, 199, 199);
     border-radius: 8px;
+    padding: 10px;
   }
 
   .all-components-about {
