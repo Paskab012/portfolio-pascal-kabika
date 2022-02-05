@@ -8,3 +8,4 @@ package.json
 .hintrc
 .vscode
 _config.yml
+.eslintrc.json
