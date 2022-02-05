@@ -15,8 +15,6 @@ const navLink = document.querySelectorAll('.navigate');
 
 navLink.forEach((e) => e.addEventListener('click', mobileMenuT));
 
-//****************DETAILS PAGE*****************/
-
 const datas = [
   {
     id: 1,
@@ -129,7 +127,7 @@ popupBtn.forEach((btn) => {
         btn.addEventListener('click', () => {
           popup.classList.add('hidden');
           const popupStart = document.querySelector(
-            `[data-popup-start='${popupId}']`
+            `[data-popup-start='${popupId}'],`,
           );
           popupStart.scrollIntoView();
         });
