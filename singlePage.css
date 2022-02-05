@@ -7,18 +7,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  width: 100%;
-  background-color: #c1c7d0;
-}
-
-ul li {
+.all-components-single ul li {
   margin-top: 5px;
   margin-bottom: 8px;
   color: rgb(95, 95, 173);
 }
 
-.tonic-list li {
+.tonic-list-single li {
   font-size: 13px;
   color: #7a869a;
   line-height: 16px;
@@ -26,12 +21,12 @@ ul li {
   margin-top: -2px;
 }
 
-.tonic-courses ul li {
+.tonic-courses-single ul li {
   list-style: none;
   margin-right: 10px;
 }
 
-.title-tonic {
+.title-tonic-single {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +39,7 @@ ul li {
   cursor: pointer;
 }
 
-.tonic-courses ul li a {
+.tonic-courses-single ul li a {
   margin-top: 20px;
   text-decoration: none;
   color: #6070ff;
@@ -55,45 +50,49 @@ ul li {
   font-size: 12px;
 }
 
-.tonic-content {
+.tonic-content-single {
   width: 100%;
   margin-left: -5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 
-.tonic-content ul li {
+.tonic-content-single ul li {
   list-style: none;
 }
 
-.first-image {
+.first-image-single {
   width: 100%;
   height: 220px;
   margin: 10px 0px 10px 0px;
 }
 
-.first-image img {
+.first-image-single img {
   width: 100%;
   height: 220px;
   margin: 0 auto;
   object-fit: cover;
 }
 
-ul {
+.all-components-single ul {
   display: flex;
 }
 
-i {
+.all-components-single i {
   color: rgb(42, 37, 110);
   cursor: pointer;
 }
 
-p {
+.all-components-single p {
   color: rgb(79, 88, 107);
   font-size: 15px;
   font-weight: 400px;
   line-height: 24px;
 }
 
-h1 {
+.all-components-single h1 {
   font-size: 32px;
   line-height: 44px;
   margin-bottom: 10px;
@@ -101,7 +100,7 @@ h1 {
   font-weight: 700;
 }
 
-.all-components {
+.all-components-single {
   display: grid;
   margin: 16px;
   background-color: white;
@@ -113,14 +112,14 @@ h1 {
   width: 100%;
 }
 
-.tonic-content-canopy {
+.tonic-content-canopy-single {
   display: flex;
   align-items: baseline;
   width: 300px;
   margin-top: 10px;
 }
 
-.btn {
+.btn-single {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -128,7 +127,7 @@ h1 {
   margin: 10px;
 }
 
-.btn-tonic {
+.btn-tonic-single {
   padding: 3.5%;
   width: 50%;
   font-size: 15px;
@@ -140,29 +139,27 @@ h1 {
   margin: 5px;
 }
 
-.btn-tonic:hover {
+.btn-tonic-single:hover {
   background-color: #6070ff;
   color: white;
 }
 
-.tonic-courses hr {
+.tonic-courses-single hr {
   color: rgb(172, 172, 172);
   margin-top: 10px;
 }
 
-.line {
+.line-single {
   display: flex;
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.all-components.active {
+.all-components-single.active {
   opacity: 1;
   top: 10%;
 }
-
-
 
 button:active {
   background: #2230d2;
