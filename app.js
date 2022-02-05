@@ -125,26 +125,25 @@ for (let i = 0; i < datas.length; i += 1) {
       <div class="first-image-single">
         <img src='${datas[i].image}' alt='${datas[i].imageAlt}' />
       </div>
+      <div class="single-para">
+      <div class="para">
       <p>
         ${datas[i].description}
       </p>
+      </div>
       <div class="tonic-courses-single">
         <ul>
           <li><a href="#">html</a></li>
           <li><a href="#">css</a></li>
           <li><a href="#">javascript</a></li>
+          <li class="none"><a href="#">c++</a></li>
+         
         </ul>
-        <hr class="line" />
-      </div>
-
-      <div class="btn">
+        <div class="btn-single">
         <button type="submit" class="btn-tonic-single">See live</button>
         <button type="submit" class="btn-tonic-single">See Code</button>
       </div>
-    </div>
-    <div class="end-bar">
-      <div class="line">
-        <img src="/line.png" alt="" />
+      </div>
       </div>
     </div>
   </section>
@@ -167,7 +166,7 @@ popupBtn.forEach((btn) => {
         btn.addEventListener('click', () => {
           popup.classList.add('hidden');
           const popupStart = document.querySelector(
-            `[data-popup-start='${popupId}'],`,
+            `[data-popup-start='${popupId}'],`
           );
           popupStart.scrollIntoView();
         });
