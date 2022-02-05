@@ -135,14 +135,3 @@ popupBtn.forEach((btn) => {
     }
   });
 });
-
-function inputSave() {
-  const name = document.getElementById('username').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('msg').value;
-
-  localStorage.setItem('username', name);
-  localStorage.setItem('email', email);
-  localStorage.setItem('msg', message);
-}
-inputSave();
